@@ -10,37 +10,37 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full backdrop-blur-md bg-white/30 dark:bg-black/30 shadow-md z-50">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800 dark:text-gray-200">
+        <div className="text-2xl font-bold text-teal-600 dark:text-teal-400">
           <a href="#">Hydrojan</a>
         </div>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-6">
-          <a
+          <Link
             href="/"
-            className="text-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition"
+            className="text-lg text-teal-700 dark:text-teal-300 hover:text-teal-900 dark:hover:text-teal-100 transition"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
-            className="text-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition"
+            className="text-lg text-teal-700 dark:text-teal-300 hover:text-teal-900 dark:hover:text-teal-100 transition"
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
-            className="text-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition"
+            className="text-lg text-teal-700 dark:text-teal-300 hover:text-teal-900 dark:hover:text-teal-100 transition"
           >
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Theme Toggle Button */}
         <div className="flex items-center space-x-4">
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 shadow-lg transition"
+            className="p-2 rounded-full bg-teal-200 dark:bg-teal-800 text-teal-800 dark:text-teal-200 shadow-lg transition"
             aria-label="Toggle Theme"
           >
             {theme === "light" ? "🌙" : "☀️"}
@@ -48,7 +48,7 @@ export default function Header() {
 
           {/* Mobile Menu Toggle Button */}
           <button
-            className="block md:hidden p-2 text-gray-700 dark:text-gray-300"
+            className="block md:hidden p-2 text-teal-700 dark:text-teal-300"
             aria-label="Toggle Mobile Menu"
           >
             <svg
