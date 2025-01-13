@@ -52,10 +52,11 @@ export default function HomePage() {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-3xl font-bold mb-6">Explore Hydrojan</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-10">
-              Interact with our 3D model to get a closer look at Hydrojan's innovative design.
+              Interact with our 3D model to get a closer look at Hydrojan&apos;s innovative design.
             </p>
+
             <div className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg">
-             
+
 
 
             </div>
