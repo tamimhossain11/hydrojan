@@ -57,7 +57,7 @@ export default function HomePage() {
             <div className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg">
              
 
-             
+
             </div>
           </div>
         </section>
@@ -81,7 +81,7 @@ export default function HomePage() {
         {/* Footer */}
         <footer className="py-6 bg-sea-green-600 dark:bg-sea-green-800 text-white">
           <div className="container mx-auto px-6 text-center">
-            <p className="text-sm">&copy; 2025 Dreams of Bangladesh. All rights reserved.</p>
+            <p className="text-sm"> 2025 Dreams of Bangladesh. All rights reserved.</p>
           </div>
         </footer>
       </main>
